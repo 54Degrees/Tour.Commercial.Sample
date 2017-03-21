@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tour Commercial SAMPLE</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<!link rel="stylesheet" href="styleCurveMenu.css">
+<link rel="stylesheet" href="styleSlantMenu.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+
+		<div class="logoScene">
+			<a href="http://www.thelinengreen.co.uk/"><img src="img/logo.png" /></a>
+		</div>
+		
+	<div id="accordion" class="scenes">
+		<h3><i class="material-icons icon">info_outline</i>Contact Info</h3>
+		<div>
+			<a><img src="img/rep.png" />Anne Smith</a>
+			<a href="tel:+353123456789" target="_blank"><i class="material-icons icon">phone</i>+353 (0)1 2345 6789</a>
+			<a href="mailto:info@business.com" target="_blank"><i class="material-icons icon">email</i>info@business.com</a>
+			<a href="http://census.cso.ie/sapmap/" target="_blank"><i class="material-icons icon">insert_chart</i>Statistical Information</a>
+		</div>
+		
+		<h3><i class="material-icons icon">home</i>Shopping Centre</h3>
+		<div>
+			<a href="#" class="scene" data-id="0-1---the-dye-house"><i class="material-icons icon">room</i>1. The Dye House</a>
+		</div>
+		
+		<h3><i class="material-icons icon"><i class="material-icons">store</i></i>Shops</h3>
+		<div>
+			<a href="#" class="scene" data-id="1-shop"><i class="material-icons icon">room</i>Cloths Shop</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Newsagent</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Homewear</a>
+		</div>
+		
+		<h3><i class="material-icons icon">restaurant</i>Food</h3>
+		<div>
+			<a href="#" class="scene" data-id="2-shop"><i class="material-icons icon">room</i>Restaurant</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Cafe</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Bakery</a>
+		</div>
+		
+		<h3><i class="material-icons icon">work</i>Services</h3>
+		<div>
+			<a href="#" class="scene" data-id="3-shop"><i class="material-icons icon">room</i>Hairdressers</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Auchioneers</a>
+			<a href="#" class="scene"><i class="material-icons icon">room</i>Spa</a>
+		</div>
+		
+		<h3><i class="material-icons icon">map</i>Map</h3>
+		<div>
+			<a class="maps" href="http://www.thelinengreen.co.uk/"><img src="img/plan.png" /></a>
+		</div>
+		
+
+		
+	</div>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <i class="material-icons icon off">play_arrow</i>
+  <i class="material-icons icon on">pause</i>
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <i class="material-icons icon off">fullscreen</i>
+  <i class="material-icons icon on">fullscreen_exit</i>
+</a>
+
+<a href="#" id="sceneListToggle">
+  <i class="material-icons icon off">menu</i>
+  <i class="material-icons icon on">close</i>
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <i class="material-icons icon">keyboard_arrow_up</i>
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <i class="material-icons icon">keyboard_arrow_down</i>
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <i class="material-icons icon">keyboard_arrow_left</i>
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <i class="material-icons icon">keyboard_arrow_right</i>
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <i class="material-icons icon">add</i>
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <i class="material-icons icon">remove</i>
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+</html>
