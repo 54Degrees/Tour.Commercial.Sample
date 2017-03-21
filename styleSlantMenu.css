@@ -201,7 +201,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 	top: -50px;
 	left: -370px;
 	padding-top: 50px;
-	padding-bottom: 900px;
+	padding-bottom: 100px;
 	padding-left: 86px;
 	width: 370px;
 	max-height: 100%;
@@ -834,9 +834,9 @@ body.view-control-buttons .viewControlButton {
 
 .logoScene img{
   width: 150px;
-  padding-top: 60px;
+  padding-top: 50px;
   padding-left: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   -webkit-transform: rotateZ(-7deg); /* Safari */
   transform: rotateZ(-7deg); /* Standard syntax */
 }
